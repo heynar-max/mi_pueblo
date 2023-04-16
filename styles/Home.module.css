@@ -1,0 +1,841 @@
+/* Home components */
+.page_container_header{
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+  }
+  .page_container_section{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+    
+  }
+  .page_text_section{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: var(--font-mono);
+    font-size: 2.7rem;
+    flex-direction: column;
+    width: 80%;
+  }
+  
+  .page_image_header{
+      width: 100%;
+      box-shadow: 0 6px 18px #00000094;
+      height: 40rem;
+      object-fit: cover;
+      position:relative;
+      left:-10%;
+      z-index:-10;
+      opacity: .9; 
+  }
+  .page_image{
+      width: 4rem;
+      height: auto;
+      margin: 1rem;
+  }
+  .page_text1_section{
+    margin-left: 2rem;
+  }
+  .page_text1_section p{
+    display: flex;
+    margin: 1rem;
+    font-size: 1.4rem;
+    width: 50%;
+  }
+  
+  
+  /* Basilica componets */
+  .page_main{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    
+  }
+  .page_section_main{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--blanco);
+    height: 1000px;
+    margin: 2rem;
+  }
+  .page_main_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem;
+  }
+  .page_image_main_puntos{
+      position: absolute;
+      margin-top: -8rem;
+  }
+  .page_image_main{
+      width: 90%;
+      box-shadow: 0 6px 18px #00000094;
+      height: 40rem;
+      object-fit: cover;
+      margin-top: 5rem;
+      
+      
+  }
+  .page_article{
+    display: flex;
+    flex-direction: column;
+  }
+  .page_article h1{
+    display: flex;
+    z-index: 1;
+    font-size: 3.5rem;
+    font-weight: 100;
+    margin-top: 5rem;
+  }
+  .page_image_main_parrafo{
+    margin-top: 10rem;
+    font-size: 1.2rem;
+  }
+  .page_main_articule{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+  
+  }
+  .page_image_articule{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    position:relative;
+    box-shadow: 0 6px 18px #00000094;
+  }
+  .page_image_main_articule_parrafo{
+    width: 200px;
+  }
+
+ /* campo componets */
+  .page_container_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -6rem;
+    background-color: var(--gris);
+    
+  }
+  .page_container_main_section{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+    
+    
+    
+  }
+  .page_text_main{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: var(--font-mono);
+    font-size: 2.7rem;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .page_image_main_figure{
+      width: 50rem;
+      box-shadow: 0 6px 18px #00000094;
+      height: 30rem;
+      position:relative;
+      opacity: .8;
+  }
+  .page_aside{
+    margin: 2rem;
+    width: 100%;
+
+  }
+  .page_image{
+      width: 4rem;
+      height: auto;
+      margin: 1rem;
+  }
+  
+  .page_main_articule_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    margin: 2rem;
+    background-color: var(--blanco);
+    font-size: 2rem;
+  }
+  .page_main_articule_parrafo_text{
+    width: 300px;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+  }
+
+
+/* piscina components */
+  .page_main_piscina{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    
+  }
+  .page_section_main_piscina{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--blanco);
+    height: 1000px;
+    margin: 2rem;
+  }
+  .page_main_container_piscina{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem;
+  }
+  .page_image_main_punto_piscina{
+      position: absolute;
+      margin-top: -5rem;
+  }
+  .page_image_main_piscina{
+      width: 30rem;
+      box-shadow: 0 6px 18px #00000094;
+      height: 40rem;
+      margin-top: 5rem;
+      
+      
+  }
+  .page_article_piscina{
+    display: flex;
+    flex-direction: column;
+  }
+  .page_article_piscina h1{
+    display: flex;
+    z-index: 1;
+    font-size: 3.5rem;
+    font-weight: 100;
+    margin-top: 5rem;
+  }
+  .page_image_main_parrafo_piscina{
+    margin-top: 10rem;
+    font-size: 1.2rem;
+  }
+  .page_main_articule_piscina{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+  
+  }
+  .page_image_articule_piscina{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    position:relative;
+    box-shadow: 0 6px 18px #00000094;
+  }
+  .page_image_main_articule_parrafo_piscina{
+    width: 200px;
+    margin-bottom: 2rem;
+  }
+  .page_main_articule_piscina {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    flex-direction: column;
+}
+
+/* footer */
+.page_footer{
+  background: var(--gris);
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+.page_footer_figure{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.page_footer_figure_imagen{
+  width: 6rem;
+  height:6rem ;
+}
+
+@media (max-width: 1100px){
+  /* campos componets */
+  .page_image_main_figure{
+    width: 40rem;
+    box-shadow: 0 6px 18px #00000094;
+    height: 30rem;
+    position:relative;
+  }
+  .page_main_articule_parrafo_text{
+    width: 250px;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+  }
+  /* piscina components */
+  .page_image_main_punto_piscina{
+    margin-top: -8rem;
+}
+}
+
+@media (max-width: 1000px){
+
+  /* Home components */
+.page_container_header{
+  margin-top: 5rem;
+}
+
+.page_text_section{
+  font-size: 2.3rem;
+  width: 70%;
+}
+.page_image_header{
+  width: 90%;
+  height: 40rem;
+  left:10%;
+}
+.page_image{
+  width: 1rem;
+  height: auto;
+  margin: 1rem;
+}
+.page_text1_section{
+  margin-left: .8rem;
+}
+.page_text1_section p{
+  display: flex;
+  margin: 1rem;
+  font-size: 1.2rem;
+  width: 90%;
+}
+
+
+/* Basilica componets */
+.page_main{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  
+}
+.page_section_main{
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--blanco);
+  height: 1120px;
+  margin: 2rem;
+}
+.page_main_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
+}
+.page_main_figure{
+  display: flex;;
+  flex-direction: column;
+  align-items: center;
+}
+.page_image_main_puntos{
+    margin-top: -5rem;
+}
+.page_image_main{
+    width: 100%;
+    height: 20rem;
+    margin-top: 1rem;
+}
+.page_article{
+  display: flex;
+  flex-direction: column;
+}
+.page_article h1{
+  font-size: 2.8rem;
+  margin-top: 4rem;
+}
+.page_image_main_parrafo{
+  margin-top: 5rem;
+  font-size: 1.2rem;
+}
+.page_main_articule{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+
+}
+
+
+/* campo componets */
+.page_text_main{
+  font-size: 2rem;
+}
+
+.page_image_main_figure{
+    width: 30rem;
+    height: 30rem;
+}
+.page_aside{
+  margin: 1rem;
+  width: 100%;
+}
+
+.page_main_articule_title{
+  margin: 1rem;
+  font-size: 2rem;
+}
+.page_main_articule_parrafo_text{
+  width: 200px;
+  font-size: 1.1rem;
+}
+
+/* piscina components */
+.page_main_piscina{
+  margin-top: 0rem;
+  
+}
+.page_section_main_piscina{
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--blanco);
+  height: 1000px;
+  margin: 1rem;
+}
+.page_main_container_piscina{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  margin: 1rem;
+}
+.page_image_main_punto_piscina{
+    position: relative;
+    margin-top: -4rem;
+    height: 100%;
+}
+.page_image_main_piscina{
+    width: 40rem;
+    height: 30rem;
+    margin-top: 0rem;
+}
+.page_article_piscina{
+  display: flex;
+  flex-direction: column;
+}
+.page_article_piscina h1{
+  font-size: 3.1rem;
+  font-weight: 100;
+  margin-top: 0rem;
+}
+.page_image_main_parrafo_piscina{
+  margin-top: 10rem;
+  font-size: 1.2rem;
+  
+}
+
+.page_image_articule_piscina{
+  width: 300px;
+  margin-top: -2rem;
+}
+.page_image_main_articule_parrafo_piscina{
+  width: 80%;
+  margin-bottom: 2rem;
+}
+.page_main_articule_piscina {
+  margin-top: 1rem;
+  flex-direction: row;
+}
+
+/* footer */
+.page_footer{
+background: var(--gris);
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+align-items: center;
+}
+.page_footer_figure{
+display: flex;
+justify-content: center;
+margin-top: 1rem;
+}
+.page_footer_figure_imagen{
+width: 6rem;
+height:6rem ;
+}
+}
+
+@media (max-width: 780px){
+
+
+  /* Home components */
+.page_container_header{
+  margin-top: 2rem;
+}
+.page_container_section{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  align-items: center;
+  
+}
+.page_text_section{
+  font-size: 1.8rem;
+  width: 90%;
+}
+
+.page_image_header{
+    height: 30rem;
+    width: 100%;
+    left:0%;
+}
+
+.page_text1_section{
+  margin-left: 0rem;
+}
+.page_text1_section p{
+  display: flex;
+  margin: 1rem;
+  font-size: 1.2rem;
+  width: 90%;
+  margin-bottom: 2rem;
+}
+
+
+/* Basilica componets */
+.page_main{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  
+}
+.page_section_main{
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--blanco);
+  height: 1000px;
+  margin: 2rem;
+}
+.page_main_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
+}
+.page_image_main_puntos{
+    position: absolute;
+    margin-top: -4rem;
+    height: 10%;
+}
+
+.page_image_main{
+    width: 90%;
+    height: 20rem;
+    margin-top: 1rem;
+}
+.page_article{
+  display: flex;
+  flex-direction: column;
+}
+.page_article h1{
+  display: flex;
+  font-size: 2.8rem;
+  margin-top: 2rem;
+}
+.page_image_main_parrafo{
+  margin-top: 3rem;
+  font-size: 1rem;
+}
+.page_main_articule{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+
+}
+.page_image_articule{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  position:relative;
+  box-shadow: 0 6px 18px #00000094;
+}
+.page_image_main_articule_parrafo{
+  width: 180px;
+  font-size: .9rem;
+}
+
+/* campo componets */
+.page_container_main{
+  margin-top: 0rem;
+  
+}
+.page_container_main_section{
+  flex-direction: column;
+  margin: 2rem;
+}
+.page_text_main{
+  font-size: 1.5rem;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.page_image_main_figure{
+    width: 100%;
+    height: 20rem;
+}
+.page_aside{
+  margin: 1rem;
+  width: 100%;
+
+}
+.page_image{
+    margin: 1rem;
+}
+
+.page_main_articule_title{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+.page_main_articule_parrafo_text{
+  width: 300px;
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+}
+
+
+/* piscina components */
+.page_main_piscina{
+  display: flex;
+  justify-content: center;
+  margin-top: 0rem;
+  
+}
+.page_section_main_piscina{
+  display: flex;
+  background-color: var(--blanco);
+  height: 1000px;
+  margin: 2rem;
+}
+.page_main_container_piscina{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
+}
+.page_image_main_punto_piscina{
+    position: relative;
+    margin-top: -5rem;
+}
+.page_image_main_piscina{
+    width: 100%;
+    box-shadow: 0 6px 18px #00000094;
+    height: 30rem;
+    margin-top: 0rem;
+    
+    
+}
+.page_article_piscina{
+  display: flex;
+  flex-direction: column;
+}
+.page_article_piscina h1{
+  display: flex;
+  z-index: 1;
+  font-size: 2.5rem;
+  font-weight: 100;
+  margin-top: 0rem;
+}
+.page_image_main_parrafo_piscina{
+  margin-top: 10rem;
+  font-size: 1.2rem;
+}
+.page_main_articule_piscina{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  flex-direction: row;
+
+}
+.page_image_articule_piscina{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  position:relative;
+  box-shadow: 0 6px 18px #00000094;
+}
+.page_image_main_articule_parrafo_piscina{
+  width: 80%;
+  margin-bottom: 2rem;
+}
+}
+
+@media (max-width: 580px){
+
+    /* Home components */
+.page_container_header{
+  margin-top: 1rem;
+}
+.page_container_section{
+  margin: 1rem;
+}
+.page_text_section{
+  font-size: 1.3rem;
+  width: 90%;
+}
+
+.page_image_header{
+    height: 20rem;
+}
+
+.page_text1_section p{
+  font-size: 1rem;
+}
+
+
+/* Basilica componets */
+
+.page_section_main{
+  margin: 1rem;
+  height: 100%;
+}
+
+.page_image_main_puntos{
+    position: relative;
+    margin-top: -3rem;
+    height: 100%;
+    width: 15rem;
+}
+
+.page_image_main{
+    width: 100%;
+    height: 20rem;
+    margin-top: 1rem;
+}
+
+.page_article h1{
+  display: flex;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+}
+.page_image_main_parrafo{
+  margin-top: 3rem;
+  font-size: .9rem;
+}
+.page_main_articule{
+  flex-direction: column;
+  margin-top: 1rem;
+
+}
+.page_image_articule{
+  width: 200px;
+  height: 120px;
+}
+.page_image_main_articule_parrafo{
+  width: 180px;
+  font-size: .9rem;
+  margin-bottom: 2rem;
+}
+
+/* campo componets */
+
+.page_container_main_section{
+  margin: 1rem;
+}
+.page_text_main{
+  font-size: 1.2rem;
+}
+
+.page_image_main_figure{
+    width: 100%;
+    height: 15rem;
+}
+.page_aside{
+  margin: 1rem;
+  width: 100%;
+}
+.page_image{
+    margin: 1rem;
+}
+
+.page_main_articule_title{
+  margin-top: 5rem;
+  margin: 2rem;
+  font-size: 1.2rem;
+}
+.page_main_articule_parrafo_text{
+  width: 200px;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+
+
+/* piscina components */
+
+.page_section_main_piscina{
+  height: 100%;
+  margin: 1rem;
+}
+
+.page_image_main_punto_piscina{
+    position: relative;
+    margin-top: -2rem;
+    height: 50px;
+    width: 15rem;
+    margin-bottom: 2rem;
+}
+.page_image_main_piscina{
+    height: 20rem;
+}
+.page_article_piscina h1{
+  display: flex;
+  z-index: 1;
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-top: 0rem;
+}
+.page_image_main_parrafo_piscina{
+  margin-top: 10rem;
+  font-size: 1.2rem;
+}
+.page_main_articule_piscina{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  flex-direction: column;
+}
+.page_image_articule_piscina{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  position:relative;
+  box-shadow: 0 6px 18px #00000094;
+}
+.page_image_main_articule_parrafo_piscina{
+  width: 80%;
+  margin-bottom: 4rem;
+  font-size: 1rem;
+}
+}
